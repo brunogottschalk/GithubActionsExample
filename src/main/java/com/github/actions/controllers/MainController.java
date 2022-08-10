@@ -12,7 +12,7 @@ public class MainController {
 
     @GetMapping
     public ResponseEntity<String> getMainEndpoint() {
-        return ResponseEntity.status(HttpStatus.OK).body("NOT OK YET");
+        return ResponseEntity.status(HttpStatus.OK).body("OK");
     }
 
 }
